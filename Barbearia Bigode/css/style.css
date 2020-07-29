@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../imgs/fundo.png");
+    font-family: 'Roboto', sans-serif;
+}
+
+.whatsapp-fixo {
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    z-index: 999;
+}
+
+#menu {
+	background: rgba(0,0,0, 0.795);
+}
+
+#logo {
+	height: 50px;
+	width: 50px;
+}
+
+#menu li a {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 18pt;
+	margin-right: 12px;
+}
+
+.parallax {
+	/* Full height */
+	height: 100%;
+  
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+section h1 {
+	font-family: 'Leckerli One', cursive;
+	font-size: 50px;
+}
+
+#div-historia {
+    background-image: url("../imgs/parallax-historia.jpg");
+}
+
+#historia h2 {
+	font-family: 'Courgette', cursive;
+}
+
+#historia h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#historia img {
+	width: 350px;
+	height: 350px;
+}
+
+#div-servicos {
+    background-image: url("../imgs/parallax-servicos.jpg");
+}
+
+#servicos h5 {
+	font-family: 'Acme', sans-serif;
+	font-size: 24pt;
+	font-style: italic;
+}
+
+#div-comentarios {
+    background-image: url("../imgs/parallax-comentarios.jpg");
+}
+
+#comentarios img {
+	background-color: #fff;
+	width: 75px;
+	height: 75px;
+}
+
+#div-contato {
+    background-image: url("../imgs/parallax-contato.jpg");
+}
+
+#redes-sociais a {
+	color: #fff;
+}
+
+#creditos {
+	font-size: 12px;
+}
+
+
